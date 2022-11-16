@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+html {
+
+  /*Paleta de Rosas
+  --color-claro-100: #FAF2F2; 
+  --color-claro-400:#F3E1E1;
+  --color-claro-600:  #F1D1D1;
+  --color-claro-900: #7D5A5A; */
+
+
+  --color-claro-100: #F9F7CF; 
+  --color-claro-400:#F2DCBB;
+  --color-claro-600:  #BBBBBB;
+  --color-claro-900: #AAAAAA;
+  --color-claro-1000: #3d3d3d;
+
+
+  --color-oscuro-300:rgb(167, 226, 255);
+  --color-oscuro-700: rgb(0, 170, 255);
+  --color-oscuro-800: rgb(65, 230, 139);
+  --color-oscuro-1000: rgb(230, 195, 0);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 15px 60px 0 60px;
+    /* background-color: var(--color-claro-100); */
+}
+
+.menu-container {
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-claro-400);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.menu-logo-container {
+    height: 100%;
+    width: 200px;
+}
+
+.menu-logo img {
+    height: 100%;
+    width: 200px;
+}
+
+.menu-list-container {
+    width: 300px;
+    height: 100%;
+    
+}
+
+.menu-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-list li {
+    display: inline-block;
+    transition: 0.5s;
+
+
+}
+
+.menu-list li:hover{
+    transform: scale(1.2);
+
+}
+    
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-claro-100);
+} 
+
+
+.container-about {
+    height: 500px;
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-img {
+    width: 300px;
+    height:350px;
+    box-shadow: -1px 13px 17px 1px rgba(0,0,0,0.6);
+-webkit-box-shadow: -1px 13px 17px 1px rgba(0,0,0,0.6);
+-moz-box-shadow: -1px 13px 17px 1px rgba(0,0,0,0.6);
+transition: 0.5s;
+}
+
+.container-img:hover {
+    box-shadow: -1px 13px 43px 10px rgba(0,0,0,0.7);
+-webkit-box-shadow: -1px 13px 43px 10px rgba(0,0,0,0.7);
+-moz-box-shadow: -1px 13px 43px 10px rgba(0,0,0,0.7);
+}
+
+
+.container-img img{
+    width: 300px;
+    height:350px;
+}
+
+.container-presentation {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.presentation-name {
+    font-size: 30px;
+}
+
+.presentation-name h2 {
+    color: #3d3d3d;
+}
